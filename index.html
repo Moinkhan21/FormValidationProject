@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> <!-- Character encoding for the document -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design for different screen sizes -->
+  <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file for styling -->
+  <title>Form Validation</title> <!-- Title of the page displayed in the browser tab -->
+</head>
+<body>
+  <!-- Form container -->
+  <form id="myForm">
+    <!-- Email input field -->
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email"> <!-- Text input for email -->
+    <span id="emailError" class="error-message"></span> <!-- Error message for email -->
+
+    <br>
+
+    <!-- Password input field -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"> <!-- Password input -->
+    <span id="passwordError" class="error-message"></span> <!-- Error message for password -->
+
+    <br>
+
+    <!-- Submit button -->
+    <button type="submit">Submit</button>
+  </form>
+
+  <!-- Link to external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>

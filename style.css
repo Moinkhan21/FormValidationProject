@@ -1,0 +1,72 @@
+/* Basic styling for body to center the form and set background */
+body {
+    font-family: 'Arial', sans-serif; /* Modern, clean font */
+    background-color: #f0f0f5; /* Light gray background */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+/* Form styling */
+form {
+    background-color: #ffffff; /* White background */
+    padding: 20px; /* Padding for comfort */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%; /* Full width */
+    max-width: 400px; /* Maximum width */
+}
+
+/* Label styling */
+label {
+    display: block; /* Block display */
+    margin-bottom: 8px; /* Space below */
+    font-weight: bold; /* Bold text */
+    color: #333; /* Dark gray */
+}
+
+/* Input field styling */
+input[type="text"], input[type="password"] {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px; /* Padding for better UX */
+    margin-bottom: 15px; /* Space below input */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Slightly rounded corners */
+    box-sizing: border-box; /* Include padding in width */
+    font-size: 16px; /* Larger text */
+    transition: border-color 0.3s ease; /* Smooth border color transition */
+}
+
+/* Input focus styling */
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Error message styling */
+.error-message {
+    color: #e74c3c; /* Red color */
+    font-size: 14px; /* Smaller text */
+    margin-top: -10px; /* Pull up error message */
+    display: block; /* Block display */
+}
+
+/* Submit button styling */
+button[type="submit"] {
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 12px 20px; /* Padding for size */
+    font-size: 16px; /* Larger text */
+    cursor: pointer; /* Pointer cursor */
+    width: 100%; /* Full width */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Button hover effect */
+button[type="submit"]:hover {
+    background-color: #218838; /* Darker green on hover */
+}
